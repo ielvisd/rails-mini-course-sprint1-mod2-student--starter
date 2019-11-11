@@ -10,14 +10,14 @@ First, we need to clone the repository and then run irb in the terminal.
 
 1. Create a `Book` class (in a file called `book.rb`) so that we can track how many copies of a book we have and whether we have personally finished reading it or not.
 
-   - The `Book` class should have `title`, `author`, `finished`, and `count` instance variables.
-   - You should be able to pass in the `title` and `author` values when you instantiate a book, but only those two attributes.
+   - The `Book` class should have `title`, `author`, `finished`, and `count` instance variables. emoji ✅
+   - You should be able to pass in the `title` and `author` values when you instantiate a book, but only those two attributes. ✅
      - Example: `Book.new("Practical Object-Oriented Design in Ruby", "Sandi Metz")`.
-   - `finished` is a boolean and should default to `false`.
-   - `count` is an integer and should default to `3`.
-   - All of the instance variables should be set in the initialize method.
+   - `finished` is a boolean and should default to `false`. ✅
+   - `count` is an integer and should default to `3`. ✅
+   - All of the instance variables should be set in the initialize method. ✅
 
-2. Test out your book class using irb.
+2. Test out your book class using irb. ✅
 3. Use `attr_` macros to provide access to the instance variables.
 
    - `title` and `author` should only be readable.
@@ -41,7 +41,7 @@ First, we need to clone the repository and then run irb in the terminal.
   ]
 ```
 
-   - Test out the `recommended_books` class method
+- Test out the `recommended_books` class method
 
 6. Create a `Lendable` module with a `lend` method that decrements the current `count` by one.
 
