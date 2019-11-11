@@ -5,6 +5,7 @@ class Book
   attr_accessor :count
   attr_reader :author, :title
   attr_writer :finished
+  include Lendable
 
   def initialize(author, title)
     @author = author

@@ -29,9 +29,9 @@ First, we need to clone the repository and then run irb in the terminal.
    - Add a `listen` method to `AudioBook` that sets the `finished` value to `true`. ✅
    - Add a `read` method to `ComicBook` that sets the `finished` value to `true`. ✅
 
-5. Add a `recommended_books` class method to the `Book` class that creates and returns an array of recommended books
+5. Add a `recommended_books` class method to the `Book` class that creates and returns an array of recommended books ✅
 
-   - Add the following code inside of the `recommended_books` class method:
+   - Add the following code inside of the `recommended_books` class method: ✅
 
 ```ruby
   [
@@ -41,10 +41,10 @@ First, we need to clone the repository and then run irb in the terminal.
   ]
 ```
 
-- Test out the `recommended_books` class method
+- Test out the `recommended_books` class method ✅
 
-6. Create a `Lendable` module with a `lend` method that decrements the current `count` by one.
+6. Create a `Lendable` module with a `lend` method that decrements the current `count` by one. ✅
 
-   - Prevent the `count` from going below `0` in the `lend` method
-   - Mixin the module into `Book`
-   - Test that you can lend a book by verifying the count has reduced
+   - Prevent the `count` from going below `0` in the `lend` method ✅
+   - Mixin the module into `Book` ✅
+   - Test that you can lend a book by verifying the count has reduced ✅
