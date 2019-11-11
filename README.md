@@ -20,14 +20,14 @@ First, we need to clone the repository and then run irb in the terminal.
 2. Test out your book class using irb. ✅
 3. Use `attr_` macros to provide access to the instance variables.
 
-   - `title` and `author` should only be readable.
-   - `finished` should only be writeable.
-   - `count` should be readable and writeable.
+   - `title` and `author` should only be readable. ✅
+   - `finished` should only be writeable. ✅
+   - `count` should be readable and writeable. ✅
 
-4. Create `AudioBook` (`audio_book.rb`) and `ComicBook` (`comic_book.rb`) classes that inherit from `Book`.
+4. Create `AudioBook` (`audio_book.rb`) and `ComicBook` (`comic_book.rb`) classes that inherit from `Book`. ✅
 
-   - Add a `listen` method to `AudioBook` that sets the `finished` value to `true`.
-   - Add a `read` method to `ComicBook` that sets the `finished` value to `true`
+   - Add a `listen` method to `AudioBook` that sets the `finished` value to `true`. ✅
+   - Add a `read` method to `ComicBook` that sets the `finished` value to `true`. ✅
 
 5. Add a `recommended_books` class method to the `Book` class that creates and returns an array of recommended books
 
