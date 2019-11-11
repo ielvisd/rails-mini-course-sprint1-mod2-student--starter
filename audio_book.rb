@@ -1,10 +1,10 @@
-class ComicBook < Book
+class AudioBook < Book
   def initialize(author, title)
     @author = author
     @title = title
   end
 
-  def read
+  def listen
     @finished = true
   end
 end

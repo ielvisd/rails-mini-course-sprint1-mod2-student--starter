@@ -2,10 +2,12 @@
 
 # :nodoc:
 class Book
+  include Lendable
+  # Extend so the class, not the instance has these methods
+  extend BookBuilder
   attr_accessor :count
   attr_reader :author, :title
   attr_writer :finished
-  include Lendable
 
   def initialize(author, title)
     @author = author
